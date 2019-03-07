@@ -70,7 +70,7 @@ You can fix this by visiting the permalink page which flushes the rewrite rules
 add_action( 'widgets_init', 'unawidgetsailingclass_register_widgets' );
  //register our widget
 function unawidgetsailingclass_register_widgets() {
-    register_widget( 'unawidgetfilms_widget' );
+    register_widget( 'unawidgetsailingclass_widget' );
 }
 //The Class: Note this code is the same as 
 class unawidgetsailingclass_widget extends WP_Widget {
